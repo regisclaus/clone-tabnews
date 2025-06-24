@@ -1,0 +1,2 @@
+=== Subir docker
+docker compose -f infra -f infra/compose.yaml up
