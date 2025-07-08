@@ -1,2 +1,8 @@
 === Subir docker
 docker compose -f infra -f infra/compose.yaml up
+
+=== Rodar aplicação
+npm run dev
+
+=== Rodar teste em watch
+npm run test:watch
