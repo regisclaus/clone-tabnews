@@ -29,9 +29,6 @@ async function status(request, response) {
         opened_connections: databaseOpenedConnectionsValue,
       },
     },
-    postgres_version: await database.postgresVersion(),
-    postgres_max_connections: await database.postgresMaxConnections(),
-    postgres_used_connections: await database.postgresUsedConnections(),
   });
 }
 
